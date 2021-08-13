@@ -1,0 +1,83 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "productName": "Product 1",
+      "productDesc": "Desc 1",
+      "mrp": 1000,
+      "category": "men",
+      "tags": [
+        "tag a",
+        "tag b"
+      ],
+      "quantity": 100,
+      "returnable": false
+    },
+    {
+      "id": 2,
+      "productName": "Product 2",
+      "productDesc": "Desc 2",
+      "mrp": 2000,
+      "category": "men",
+      "tags": [
+        "tag a",
+        "tag b"
+      ],
+      "quantity": 100,
+      "returnable": true
+    },
+    {
+      "id": 3,
+      "productName": "Product 3",
+      "productDesc": "Desc 3",
+      "mrp": 3000,
+      "category": "men",
+      "tags": [
+        "tag a",
+        "tag b"
+      ],
+      "quantity": 300,
+      "returnable": false
+    },
+    {
+      "id": 4,
+      "productName": "Product 4",
+      "productDesc": "Desc 4",
+      "mrp": 4000,
+      "category": "men",
+      "tags": [
+        "tag a",
+        "tag b"
+      ],
+      "quant~ity": 400,
+      "returnable": false
+    },
+    {
+      "id": 5,
+      "productName": "Product 5",
+      "productDesc": "Desc 5",
+      "mrp": 5000,
+      "category": "men",
+      "tags": [
+        "tag a",
+        "tag b"
+      ],
+      "quantity": 500,
+      "returnable": false
+    },
+    {
+      "id": 6,
+      "productName": "Product 6",
+      "productDesc": "Desc 6",
+      "mrp": 6000,
+      "category": "men",
+      "tags": [
+        "tag a",
+        "tag b"
+      ],
+      "quantity": 600,
+      "returnable": false
+    }
+  ],
+  "cart": []
+}

@@ -1,0 +1,27 @@
+<!-- <p>{{cartArr}}</p> -->
+<div class="container" style="padding: 20px">
+    <div class="row">
+      <div class="col-sm-6" *ngFor="let product of cartArray">
+        <div class="card" style="width: 18rem">
+          <img
+            style="width: 100px; height: 100px"
+            src="https://cdn.shopify.com/s/files/1/0533/2089/files/placeholder-images-collection-1_large.png?format=jpg&quality=90&v=1530129113"
+            class="card-img-top"
+            alt="..."
+          />
+          <div class="card-body">
+            <h5 class="card-title">{{ product.product.productName }}</h5>
+  
+           
+              QTY: <input class="quantity" min="1" max={{product.product.quantity}} 
+              name="quantity" value={{product.quantity}} type="number"
+               (change)='updateItemQuantity($event, product)' #quantity>
+            <!-- <p class="card-text">{{ product.quantity }}</p> -->
+            <button (click)="deleteItem(product.product.id)">Delete</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <div>CART TOTAL: {{totalPrice}}</div>
